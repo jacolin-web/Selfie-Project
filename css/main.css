@@ -1,0 +1,155 @@
+body.bg-0{
+    background-color:none;
+}
+
+body.bg-1{
+    background: url(../img/giphy.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-2{
+    color: white;
+    background: url(../img/space.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-3{
+    background: url(../img/wave.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-4{
+    background: url(../img/tv.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-5{
+    background: url(../img/artsy.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-6{
+    background: url(../img/static.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-7{
+    background: url(../img/90s.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-8{
+    background: url(../img/melting.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+body.bg-9{
+    background: url(../img/gradient.gif) no-repeat fixed center;
+    background-size: 100%
+}
+
+.back{
+    width:100px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+    width: 100px;
+    height: 100px;
+    margin: 0px 50px 100px 50px;
+    display: inline-block;
+}
+
+.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+    width:200px;
+}
+#grid-container {
+   margin: auto;
+   width: 55%
+}
+
+@media only screen and (max-width: 1100px) {
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+        width: 100px;
+        height: 100px;
+        margin: 0px 40px 75px 40px;
+        display: inline-block;
+    }
+	.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+        width:175px;
+    }
+    
+    body.bg-3{
+        background: url(../img/wave.gif) repeat fixed center;
+        background-size: 100%
+    }
+
+    body.bg-4{
+        background: url(../img/tv.gif) repeat fixed center;
+        background-size: 100%
+    }
+    
+    body.bg-6{
+        background: url(../img/static.gif) repeat fixed center;
+        background-size: 100%
+    }
+
+    body.bg-8{
+        background: url(../img/melting.gif) repeat fixed center;
+        background-size: 100%
+    }
+    
+    
+
+    body.bg-9{
+        background: url(../img/gradient.gif) repeat fixed center;
+        background-size: 100%
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+        width: 100px;
+        height: 100px;
+        margin: 0px 25px 50px 25px;
+        display: inline-block;
+    }
+	.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+        width:145px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+        width: 100px;
+        height: 100px;
+        margin: 0px 15px 25px 15px;
+        display: inline-block;
+    }
+	.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+        width:120px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+        width: 100px;
+        height: 100px;
+        margin: 0px 5px 10px 5px;
+        display: inline-block;
+    }
+	.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+        width:100px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+    width: 100px;
+    height: 100px;
+    margin: 0px 3px 7px 3px;
+    display: inline-block;
+}
+	.onetile, .twotile, .threetile, .fourtile, .fivetile, .sixtile, .seventile, .eighttile, .ninetile {
+        width:85px;
+    }
+}
